@@ -1,10 +1,15 @@
 <template>
   <div id="app">
-  <h1>App组件</h1>
-    <router-view/>
+    <h1> app 组件</h1>
+    <router-view />
   </div>
 </template>
 
-<style lang="less">
+<script>
+export default {
+  name: 'App'
+}
+</script>
 
+<style lang="less">
 </style>
