@@ -1,0 +1,12 @@
+<template>
+  <h1>问答</h1>
+</template>
+
+<script>
+export default {
+  name: 'LoginIndex'
+}
+</script>
+
+<style lang="less" scoped>
+</style>
