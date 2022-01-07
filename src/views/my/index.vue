@@ -18,6 +18,7 @@
       class="updata-btn"
       size="small"
       round
+      to="/user/proflie"
       >
       编辑资料
       </van-button>
@@ -81,7 +82,7 @@
       text="历史" />
     </van-grid>
     <van-cell title="消息通知" is-link to="" />
-    <van-cell class="mb-4" title="小智同学" is-link to="" />
+    <van-cell class="mb-4" title="小智同学" is-link to="/user/chat" />
     <van-cell  v-if="user" class="one" title="退出登录" @click="onLogin" />
   </div>
 </template>

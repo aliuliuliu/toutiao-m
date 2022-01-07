@@ -16,11 +16,11 @@ export default new Vuex.Store({
       setItem(USER_KEY, state.user)
       // window.localStorage.setItem('user', JSON.stringify(state.user))
     }
-  },
-  actions: {
-  },
-  modules: {
-  },
-  getters: {
   }
+  // actions: {
+  // },
+  // modules: {
+  // },
+  // getters: {
+  // }
 })

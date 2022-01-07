@@ -55,3 +55,26 @@ export const unfocusUser = (target) => {
     url: `/v1_0/user/followings/${target}`
   })
 }
+// 获取用户的 个人资料
+export const userFlie = () => {
+  return request({
+    method: 'GET',
+    url: '/v1_0/user/profile'
+  })
+}
+// 修改个人昵称
+export const updataName = (data) => {
+  return request({
+    method: 'PATCH',
+    url: '/v1_0/user/profile',
+    data
+  })
+}
+// 修改用户照片资料
+export const updataPhoto = (data) => {
+  return request({
+    method: 'PATCH',
+    url: '/v1_0/user/photo',
+    data
+  })
+}
